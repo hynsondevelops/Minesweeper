@@ -1,0 +1,32 @@
+#gridContainer
+{
+	height: 900px;
+	width: 900px;
+}
+
+
+.row
+{
+	display: block;
+	height: 100px;
+	width: 900px;
+}
+
+.tile
+{
+	display: inline-block;
+	height: 90px;
+	width: 90px;
+	text-align: center;
+	vertical-align:top;
+}
+
+.empty
+{
+	background-color: green;
+}
+
+.mine
+{
+	background-color: red;
+}
